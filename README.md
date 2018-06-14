@@ -22,6 +22,6 @@ Se define un nombre para el balanceador, en Request Host el puerto serà 10001 y
 Damos clic en CREATE
 al dar clic en el balanceador podemos añadir una escala que seria 3 "Scale ## |+|-|"
 
-
-http://localhost:8081/api/factorial?fac=9
+visitamos la pagina con la IP asignada
+http://IP_ASIGNADA:10001/api/factorial?fac=9
 
