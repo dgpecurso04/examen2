@@ -205,4 +205,25 @@
         <jersey.version>2.26</jersey.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+         
+         <repositories>
++        <repository>
++            <id>nexus.kebblar.io-repo</id>
++            <url>http://192.168.1.108:8081/repository/all/</url>
++            <name>Kebblar Repository</name>
++        </repository>
++    </repositories>
++
++	<distributionManagement>
++		<repository>
++			<id>nexus.kebblar.io-repo</id>
++			<url>http://192.168.1.108:8081/repository/maven-releases/</url>
++			<uniqueVersion>true</uniqueVersion>
++		</repository>
++		<snapshotRepository>
++			<id>nexus.kebblar.io-repo</id>
++			<url>http://192.168.1.108:8081/repository/maven-snapshots/</url>
++			<uniqueVersion>true</uniqueVersion>
++		</snapshotRepository>
++	</distributionManagement>
 </project>
