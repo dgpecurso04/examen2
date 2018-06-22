@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2018-06-22T00:43:21.806">
+<file name="/examen2/src/main/java/mx/unam/dgpe/sample/controller/MyController.java">
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statements" package="mx.unam.dgpe.sample.controller" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'io.vertx.ext.web.handler.StaticHandler'
+</violation>
+<violation beginline="67" endline="67" begincolumn="26" endcolumn="44" rule="BigIntegerInstantiation" ruleset="Basic" package="mx.unam.dgpe.sample.controller" class="MyController" method="factorial" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/basic.html#BigIntegerInstantiation" priority="3">
+Dont create instances of already existing BigInteger and BigDecimal (ZERO, ONE, TEN)
+</violation>
+<violation beginline="68" endline="68" begincolumn="27" endcolumn="45" rule="BigIntegerInstantiation" ruleset="Basic" package="mx.unam.dgpe.sample.controller" class="MyController" method="factorial" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/basic.html#BigIntegerInstantiation" priority="3">
+Dont create instances of already existing BigInteger and BigDecimal (ZERO, ONE, TEN)
+</violation>
+</file>
+</pmd>
